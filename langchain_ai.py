@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 # Set OpenAI API key
-api_key = "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"
+api_key = "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"
 
 openai_llm = ChatOpenAI(temperature=0.3, openai_api_key=api_key, model="gpt-3.5-turbo")
 
